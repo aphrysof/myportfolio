@@ -1,6 +1,7 @@
 import React from 'react'
 import {GrLinkedin} from "react-icons/gr";
 import {BsGithub} from "react-icons/bs";
+import Link from 'next/link';
 
 export  default function Footer() {
     return (
@@ -11,8 +12,8 @@ export  default function Footer() {
                    <p className="pt-3 text-[#a0aec0] font-bold text-base">&copy; 2023 All rights reserved</p>
                 </div>
                 <div className="flex space-x-6">
-                    <div className="cursor-pointer"><GrLinkedin size={24}/></div>
-                   <div className="cursor-pointer"><BsGithub size={24}/></div>
+                <Link className="cursor-pointer" href="https://www.linkedin.com/in/sophia-waniru/" target='_blank'><GrLinkedin  size={36} /></Link>
+                            <Link className="cursor-pointer" href="https://github.com/aphrysof/"  target='_blank'><BsGithub size={36} /></Link>
                 </div>
             </div>
             <hr/>
