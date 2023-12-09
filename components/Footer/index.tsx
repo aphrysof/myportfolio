@@ -4,7 +4,7 @@ import {BsGithub} from "react-icons/bs";
 
 export  default function Footer() {
     return (
-        <footer className="max-w-full bg-[#111827] py-14 px-8">
+        <footer className="max-w-full bg-[#1c2536] py-14 px-8">
             <div className="w-1/2 mx-auto flex justify-between items-center pb-8">
                 <div className="pt-4">
                     <h5 className="font-semibold text-lg">Sofia{" "}<span className="text-purple-500">{" "}Wanjiru{" "}</span> Abdullahi</h5>

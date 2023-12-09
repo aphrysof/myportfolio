@@ -41,10 +41,6 @@ export default function  Navbar () {
                         </ul>
                     ))
                 }
-            <div className="flex space-x-12 cursor-pointer">
-                <PiMoon size={24} />
-            </div>
-
         </nav>
     )
 }

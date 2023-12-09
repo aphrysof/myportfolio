@@ -1,4 +1,4 @@
-import {About, Banner, Skills} from "@/components";
+import {About, Banner, Contact, Experience, Projects, Skills} from "@/components/index";
 
 export default function Page(){
     return(
@@ -6,6 +6,9 @@ export default function Page(){
             <Banner/>
             <About />
             <Skills />
+            <Projects />
+            <Experience />
+            <Contact />
         </>
     )
 }

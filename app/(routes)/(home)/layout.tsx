@@ -1,4 +1,4 @@
-import {Footer, Navbar} from "@/components";
+import {Footer, Navbar} from "@/components/index";
 
 export default function Layout ({children}: {children: React.ReactNode}) {
     return (

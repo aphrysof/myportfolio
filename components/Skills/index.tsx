@@ -54,13 +54,16 @@ const coreSkills = [
         skill: "Apollo Client"
     },
     {
+        skill: "Graphql"
+    },
+    {
         skill: "React Query"
     },
 ]
 export default function Skills () {
     return (
-        <section className="py-[96px] px-[124px] bg-[#020617]" id="skills">
-            <h2 className="text-4xl text-center font-bold">My Skills</h2>
+        <section className="py-[96px] px-[124px]" id="skills">
+            <h2 className="text-3xl text-center font-bold">My Skills</h2>
             <div className="w-[80%] mx-auto">
                 <h3 className="mt-10 text-lg text-center font-semibold">Some of the soft skills I've acquired along the way:</h3>
                 <div className="flex flex-wrap gap-6 justify-center mt-8">
