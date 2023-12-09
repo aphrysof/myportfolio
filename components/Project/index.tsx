@@ -94,7 +94,7 @@ const ProjectCards = ({
   technologies,
 }: ProjectProps) => {
   return (
-    <div className="py-4 px-4 bg-[#111927] rounded-2xl mt-8 bg-opacity-100 flex space-x-6 items-center">
+    <div className="py-4 px-4 bg-[#111927] rounded-2xl mt-8 bg-opacity-100 flex space-x-6 items-center" id="projects">
       <div className="w-full">
         <h3 className="text-3xl font-medium">{title}</h3>
         <div className="grid gap-4 mt-5">
