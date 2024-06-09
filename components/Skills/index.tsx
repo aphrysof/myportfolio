@@ -62,10 +62,10 @@ const coreSkills = [
 ]
 export default function Skills () {
     return (
-        <section className="py-[96px] px-[124px]" id="skills">
-            <h2 className="text-3xl text-center font-bold">My Skills</h2>
-            <div className="w-[80%] mx-auto">
-                <h3 className="mt-10 text-lg text-center font-semibold">Some of the soft skills I've acquired along the way:</h3>
+        <section className="px-5 py-12 md:px-16 lg:py-[96px] lg:px-[124px]" id="skills">
+            <h2 className="text-2xl md:text-3xl text-center font-bold">My Skills</h2>
+            <div className="w-full md:w-[80%] mx-auto">
+                <h3 className="mt-10 text-base md:text-lg text-center font-semibold">Some of the soft skills I've acquired along the way:</h3>
                 <div className="flex flex-wrap gap-6 justify-center mt-8">
                     {
                         softSkills && softSkills.map((softSkill, index) => (

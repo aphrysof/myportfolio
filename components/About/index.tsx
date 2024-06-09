@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function About () {
     return (
-        <section className="bg-[#111927] py-[96px] px-[180px]" id="about">
+        <section className="w-full py-12 px-5 md:px-16 bg-[#111927] lg:py-[96px] lg:px-[180px]" id="about">
             <h2 className="text-center text-3xl text-white font-bold">
                 About me
             </h2>

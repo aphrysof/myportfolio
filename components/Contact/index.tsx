@@ -46,9 +46,9 @@ const Contact = () => {
   }
 
   return (
-    <section className="py-[96px] px-[124px] bg-[#111927]" id="contact">
-      <h2 className="text-center text-3xl text-white font-bold">Contact Me</h2>
-      <div className="w-[50%] mx-auto">
+    <section className="px-5 py-12 md:px-16 lg:py-[96px] lg:px-[124px] bg-[#111927]" id="contact">
+      <h2 className="text-center text-2xl md:text-3xl text-white font-bold">Contact Me</h2>
+      <div className="w-full md:w-[50%] mx-auto">
       <Form {...form}>
       <div className="flex-center flex-col">
         <form

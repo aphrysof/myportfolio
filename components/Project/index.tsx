@@ -94,9 +94,9 @@ const ProjectCards = ({
   technologies,
 }: ProjectProps) => {
   return (
-    <div className="py-4 px-4 bg-[#111927] rounded-2xl mt-8 bg-opacity-100 flex space-x-6 items-center" id="projects">
-      <div className="w-full">
-        <h3 className="text-3xl font-medium">{title}</h3>
+    <div className="py-4 px-4 bg-[#111927] rounded-2xl mt-8 bg-opacity-100 flex flex-col-reverse lg:flex-row lg:space-x-6 items-center" id="projects">
+      <div className="w-full mt-5 lg:mt-0">
+        <h3 className="text-2xl md:text-3xl font-medium">{title}</h3>
         <div className="grid gap-4 mt-5">
           <div className="text-base">
             <p>{desc}</p>
@@ -135,8 +135,8 @@ const ProjectCards = ({
 
 const Projects = () => {
   return (
-    <section id="Projects" className="py-[96px] px-[124px]">
-      <h2 className="text-3xl text-center font-bold">My Projects</h2>
+    <section id="Projects" className="px-5 py-12 md:px-16 lg:py-[96px] lg:px-[124px]">
+      <h2 className="text-2xl md:text-3xl text-center font-bold">My Projects</h2>
       <div className="text-center">
         <h2 className="pt-3 text-[#a0aec0] font-bold text-base">
           The following projects helped me a lot in grasping and mastering a ton

@@ -33,7 +33,7 @@ const links = [
 ]
 export default function  Navbar () {
     return (
-        <nav className="max-w-full flex items-center justify-center space-x-16 h-14 text-lg my-10">
+        <nav className="max-w-full flex items-center justify-center space-x-16 h-14 text-lg my-10 flex-wrap">
                 {
                     links && links.map((link, index) => (
                         <ul className="flex text-white text-semibold" key={index}>

@@ -25,8 +25,8 @@ const Experience = () => {
 
   return (
     <>
-      <section className="py-[96px] px-[124px]" id="experience">
-        <h2 className="text-3xl text-center font-bold">My Experience</h2>
+      <section className="px-5 py-12 md:px-16 lg:py-[96px] lg:px-[124px]" id="experience">
+        <h2 className="text-2xl md:text-3xl text-center font-bold">My Experience</h2>
 
         {experiences &&
           experiences.map((experience, idx) => (
